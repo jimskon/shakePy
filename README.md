@@ -6,7 +6,7 @@ A python microservice for looking up words in shakspeare
 
 
 ## Set app
- - mkdir /var/www/html/shakePy
+ - sudo mkdir /var/www/html/shakePy
  - sudo chown ubuntu /var/www/html/shakePy
  - make
  - ./start.sh
