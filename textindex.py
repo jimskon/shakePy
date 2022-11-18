@@ -66,7 +66,6 @@ class textindex:
     lines = "{\"matches\":["
     if word in self.index:
       posList=self.index[word]
-      print(posList)
       for l in posList:
         line = self.lookupLine(l)
         if '"' in line:

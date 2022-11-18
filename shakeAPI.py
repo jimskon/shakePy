@@ -16,9 +16,9 @@ sIndex=textindex(fileName)
 @app.route("/shake/<word>")
 def main(word):
     matches=sIndex.lookupLinesJSON(word)
-    #print(matches)
     return matches
 
 @app.route("/shake")
 def about():
   return "shake/word"
+
