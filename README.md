@@ -10,6 +10,6 @@ A python microservice for looking up words in shakspeare
  - sudo chown ubuntu /var/www/html/shakePy
  - sudo apt install python3-flask
  - export FLASK_APP=shakeAPI.py
- - FLASK_ENV=development
+ - export FLASK_ENV=development
  - make
  - flask
