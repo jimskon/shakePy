@@ -8,5 +8,6 @@ A python microservice for looking up words in shakspeare
 ## Set app
  - sudo mkdir /var/www/html/shakePy
  - sudo chown ubuntu /var/www/html/shakePy
+ - sudo apt install python3-flask
  - make
  - ./start.sh
