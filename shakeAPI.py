@@ -11,7 +11,9 @@ app = Flask(__name__)
 CORS(app)
 
 fileName="shakespeare.txt"
+print("Loading shakespeare...",end="")
 sIndex=textindex(fileName)
+print(" Done!")
   
 @app.route("/shake/<word>")
 def main(word):
@@ -20,5 +22,5 @@ def main(word):
 
 @app.route("/shake")
 def about():
-  return "shake/word"
+  return "usage: shake/word"
 
