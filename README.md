@@ -15,7 +15,7 @@
 ## Edit Javascript IP address to your VM address
  - Edit ```shake.js``` so that ```baseUrl``` is your VM's IP address
  
-## Set app (from command line)
+## Setup app (from command line)
  - ```sudo mkdir /var/www/html/shakePy```
  - ```sudo chown ubuntu /var/www/html/shakePy```
  - ```make```
