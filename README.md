@@ -17,4 +17,5 @@ https://pypi.org/project/Flask-Cors/
 
 ## To test port access
  - socat -u tcp-l:5001,fork system:./porttest.sh
+
 Then web to the http://ip:port
